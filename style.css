@@ -1,1 +1,12 @@
-@import url (<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:400,600" rel="stylesheet">);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Quicksand:700');
+
+body {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+h1, h2 {
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
