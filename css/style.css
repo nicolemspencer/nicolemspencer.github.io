@@ -23,6 +23,38 @@ div {
   padding: 20px;
 }
 
+#left {
+  position: absolute;
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+  overflow: auto;
+
+}
+
+#right {
+  position: relative;
+  width: 48%;
+  float: right;
+  overflow: auto;
+}
+
+
 .clear-me {
   clear: both;
+}
+
+#about {
+  border-bottom: 1px;
+  border-color: black;
+}
+
+#education {
+  border-bottom: 1px;
+  border-color: black;
+}
+
+#work {
+  border-bottom: 1px;
+  border-color: black;
 }
