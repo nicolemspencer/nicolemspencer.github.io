@@ -6,43 +6,37 @@ body {
     font-weight: 300;
 }
 
-header h1 {
-  height: 0;
-  margin: 0px;
-  margin-left: -1000000px;
+#container {
+  background-color: #F9F9F9;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.svg {
-  width: 50%;
-  margin-bottom: 20px;
-}
-
-nav ul {
-  margin: 0;
-  list-style: none;
-  padding-left: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav a {
+a {
   text-decoration: off;
-  background-color: #f0efef;
-  padding: 10px;
   color: rgb(26, 24, 34);
 }
 
-nav a:hover {
+a:visited {
+  text-decoration: underline;
+  color: rgb(59, 66, 97);
+}
+
+a:hover {
   text-decoration: underline;
   color: rgb(145, 156, 206);
 }
 
-h1, h2 {
+a:active {
+  text-decoration: underline;
+  color: rgb(145, 156, 206);
+}
+
+h2 {
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
+  color: rgb(145, 156, 206);
 }
 
 h3 {
@@ -50,46 +44,87 @@ h3 {
   font-weight: 400;
 }
 
-div {
-  background-color: white;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #f0efef;
+/*
+h4+ul {
+  padding-top: 0;
+  margin-top: 0;
+}
+couldn't seem to get this to work to remove white space after our discussion*/
+
+header h1 {
+  height: 0;
+  margin: 0px;
+  margin-left: -1000000px;
 }
 
-#left {
-  position: absolute;
-  width: 48%;
-  float: left;
-  margin-right: 4%;
-  overflow: visible;
-
-}
-
-#right {
-  position: relative;
-  width: 48%;
-  float: right;
+main {
   overflow: auto;
 }
 
+main ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+  background-color: #E5E5E5;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 10px 0 0;
+  border-right: 1px solid black;
+  margin: 0 10px 0 0;
+}
+
+nav li:last-child {
+  border-right: 0;
+}
+
+footer {
+  background-color: #E5E5E5;
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
+}
+
+#left {
+  width: 45%;
+  float: left;
+  overflow: visible;
+  padding-left: 20px;
+}
+
+#right {
+  width: 45%;
+  border-left: 1px solid #E5E5E5;
+  float: right;
+  overflow: visible;
+  padding-left: 20px;
+}
+
+#about, #education, #work {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.svg {
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
 .clear-me {
   clear: both;
-}
-
-#about {
-  border-bottom: 1px;
-  border-color: black;
-}
-
-#education {
-  border-bottom: 1px;
-  border-color: black;
-}
-
-#work {
-  border-bottom: 1px;
-  border-color: black;
 }
