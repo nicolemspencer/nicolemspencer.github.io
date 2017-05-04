@@ -44,13 +44,6 @@ h3 {
   font-weight: 400;
 }
 
-/*
-h4+ul {
-  padding-top: 0;
-  margin-top: 0;
-}
-couldn't seem to get this to work to remove white space after our discussion*/
-
 header h1 {
   height: 0;
   margin: 0px;
@@ -91,12 +84,9 @@ nav li:last-child {
 }
 
 footer {
-  background-color: #E5E5E5;
-  padding: 10px;
-}
-
-footer p {
-  text-align: center;
+  height: 0;
+  margin: 0px;
+  margin-left: -1000000px;
 }
 
 #left {
@@ -118,6 +108,13 @@ footer p {
   border-bottom: 1px solid #E5E5E5;
 }
 
+#bbp-logo {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
 .svg {
   width: 50%;
   margin-bottom: 20px;
@@ -125,6 +122,29 @@ footer p {
   margin-right: 25%;
 }
 
-.clear-me {
+.flay {
+  overflow: auto;
   clear: both;
+  margin-bottom: 20px;
+}
+
+.left-flay {
+  float: left;
+  width: 470px;
+  height: auto;
+}
+
+.right-flay {
+  float: right;
+  width: 470px;
+  height: auto;
+}
+
+.about-me {
+  overflow: auto;
+}
+
+.me {
+  float: left;
+  margin-right: 20px;
 }
