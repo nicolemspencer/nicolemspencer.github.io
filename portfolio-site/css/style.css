@@ -84,12 +84,9 @@ nav li:last-child {
 }
 
 footer {
-  background-color: #E5E5E5;
-  padding: 10px;
-}
-
-footer p {
-  text-align: center;
+  height: 0;
+  margin: 0px;
+  margin-left: -1000000px;
 }
 
 #left {
